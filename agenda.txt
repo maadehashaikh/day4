@@ -10,7 +10,9 @@ browser kay request bhejny mai or server kay request accept karny mai kay bech m
 
 3_ Setting up a basic Express application
 
-Routing
+Routing is like / roue h /profile route h aik 
+
+
 Middleware
 
 hamesha routes say pehly lagta h , jab bh server request accept karta h wahn say route kay bech poachny tak agar ap us request ko bech mai rok kay kuch perform karty ho to yeh element is called Middleware , 
@@ -20,4 +22,9 @@ filhal we don't understand what will be the work but yes there's something we wa
 
 
 Request and response handling 
+frontend               =>  backend          => frontend
+URL(hit)               =>  request goes     => respose came here 
+http://localhost:3000/ => backend code work => hello developer
+
+
 Error handling 
