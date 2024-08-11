@@ -16,6 +16,8 @@ Middleware
 hamesha routes say pehly lagta h , jab bh server request accept karta h wahn say route kay bech poachny tak agar ap us request ko bech mai rok kay kuch perform karty ho to yeh element is called Middleware , 
 Middleware bech ka part h and server apna msg usko bhej dayta h direct route ko nh so middleware yeh msg kary ga kay kis client ny yeh reuqest bheji thi , middleware ki help say hm bta skty hain kay user h kon ? yeh kam kar skta h aisay !! 
 app.use() => aik middleware h and yeh kehta h kay route ko response bhejny say pehly ap mujhy chalao
+filhal we don't understand what will be the work but yes there's something we want that jo hmaray pass response anay say pehly ho and isi liyay hmny middleware bnaya h 
+
 
 Request and response handling 
 Error handling 
