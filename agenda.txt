@@ -9,8 +9,13 @@ it manages everything from recieving the request and giving the response
 browser kay request bhejny mai or server kay request accept karny mai kay bech mai express.js ka pora role h 
 
 3_ Setting up a basic Express application
- 
+
 Routing
 Middleware
+
+hamesha routes say pehly lagta h , jab bh server request accept karta h wahn say route kay bech poachny tak agar ap us request ko bech mai rok kay kuch perform karty ho to yeh element is called Middleware , 
+Middleware bech ka part h and server apna msg usko bhej dayta h direct route ko nh so middleware yeh msg kary ga kay kis client ny yeh reuqest bheji thi , middleware ki help say hm bta skty hain kay user h kon ? yeh kam kar skta h aisay !! 
+app.use() => aik middleware h and yeh kehta h kay route ko response bhejny say pehly ap mujhy chalao
+
 Request and response handling 
 Error handling 

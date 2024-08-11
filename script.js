@@ -9,6 +9,9 @@ app.get('/', function (req, res) {  //app say get and is mai we use sab say pehl
   res.send('I am maadeha ')
 })
 
+// is app.get mai no middleware is involved 
+
+
 app.get('/profile', function (req, res) { 
   res.send('ap profile route hain and we use nodemon to make you automate');
 })
