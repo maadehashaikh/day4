@@ -1,0 +1,16 @@
+1_ Express.js Framework
+its a npm package and it is a framework 
+framework and library difference => strict rules ya flow jo define karta h woh h  
+(yeh line of code us kay bad yeh line of code and this is called as flow)
+react apko flow nh dyta just tool dayta h isi liyay its a library not a framework 
+
+2_ Introduction to Express.js
+it manages everything from recieving the request and giving the response 
+browser kay request bhejny mai or server kay request accept karny mai kay bech mai express.js ka pora role h 
+
+3_ Setting up a basic Express application
+ 
+Routing
+Middleware
+Request and response handling 
+Error handling 
