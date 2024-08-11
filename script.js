@@ -12,13 +12,18 @@ const app = express(); // app kion kay hm app create kar skty hain
 
 
 app.use(function(req,res,next){
-  console.log('middleware chala');   // simple bat karty hain app.use ki to woh hmy 
+  console.log('middleware chala');// simple bat karty hain app.use ki to woh hmy bech mai kuch kam karky dyta h 
   next();
 })
 
 
+app.use(function(req,res,next){
+  console.log('middleware chala aik or bar'); 
+  next();
+})
+
 app.get('/', function (req, res) {  //app say get and is mai we use sab say pehly route and then we write request handler => request handler middleware hota h and yeh hamesha aik function hota h so 
-  res.send('I am maadeha ')
+  res.send('I am maadeha ');
 })
 
 // is app.get mai no middleware is involved 
@@ -27,6 +32,8 @@ app.get('/', function (req, res) {  //app say get and is mai we use sab say pehl
 app.get('/profile', function (req, res) { 
   res.send('ap profile route hain and we use nodemon to make you automate');
 })
+
+
 
 app.listen(3000) // port kia hota h ? 
 
